@@ -1,7 +1,7 @@
 void setup()
   {
       noLoop();
-      size(800,800);
+      size(1500,800);
   }
   void draw()
   {
@@ -34,7 +34,7 @@ void setup()
       }
       void show()
       {
-        for(int myX = 0;myX<800;myX+=8){
+        for(int myX = 0;myX<1500;myX+=8){
            for(int myY = 0;myY<800;myY +=8){
           int r = (int)(Math.random()*6+1);
           z+=r;
