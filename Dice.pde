@@ -11,8 +11,8 @@ void setup()
       textSize(20);
       strokeWeight(1);
       fill(250,0,0);
-     text(" "+ bob.s + " Dice", 400,20);
-     text(" "+ bob.z + "Roll",400,40);
+     text(" "+ bob.s + " Dice", 300,20);
+     text(" "+ bob.z + "Roll",300,40);
   }
   void mousePressed()
   {
