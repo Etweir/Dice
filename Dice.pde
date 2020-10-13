@@ -1,7 +1,7 @@
 void setup()
   {
       noLoop();
-      size(1920,1080);
+      size(800,800);
   }
   void draw()
   {
@@ -11,8 +11,8 @@ void setup()
       textSize(20);
       strokeWeight(1);
       fill(250,0,0);
-     text(" "+ bob.s + " Dice", 200,20);
-     text(" "+ bob.z + "Roll",200,40);
+     text(" "+ bob.s + " Dice", 400,20);
+     text(" "+ bob.z + "Roll",400,40);
   }
   void mousePressed()
   {
@@ -34,8 +34,8 @@ void setup()
       }
       void show()
       {
-        for(int myX = 0;myX<1920;myX+=8){
-           for(int myY = 0;myY<1080;myY +=8){
+        for(int myX = 0;myX<800;myX+=8){
+           for(int myY = 0;myY<800;myY +=8){
           int r = (int)(Math.random()*6+1);
           z+=r;
           s+=1;
